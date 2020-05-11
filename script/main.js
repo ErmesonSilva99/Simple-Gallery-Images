@@ -7,7 +7,7 @@ const limit = 5;
 const images = [];
 let currentImg = 0;
 
-window.onload = function () {
+window.onload = () => {
     showMain();
     addImages(limit);
     addImageView();
